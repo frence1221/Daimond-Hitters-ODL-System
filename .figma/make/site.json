@@ -1,0 +1,10 @@
+{
+  "description": "Explore key data through a focused landing page and securely access the application with login credentials.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

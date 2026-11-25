@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+build_dir=".figma/make/static-build"
+rm -rf "$build_dir"
+mkdir -p "$build_dir"
+cp index.html "$build_dir/index.html"
+cp -R assets "$build_dir/assets"
+
+figma make deploy-preview --build-dir "$build_dir"
