@@ -4,3 +4,6 @@ How to Run with Live Sync (Sql Lite)
 - and input in terminal the
 - node server.js
 - after that run the local host
+
+organizer
+Daimond2026!
